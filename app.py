@@ -8,7 +8,7 @@ COLUNAS = 4              # botões por linha na tela inicial
 GRUPOS = [
     {
         "tema": "ODS 3.9",
-        "integrantes": "BRUNO T, MATHEUS S, CRISTIAN e VITOR G",
+        "integrantes": "BRUNO T, MATHEUS S, CRISTIAN, VITOR G e JOÃO SETTI",
         "subtema": "Saneamento básico e tratamento d'água.",
         "conteudo": "SIGA A LINHA VERDE NO CHÃO.",
         "cor": "#008000"
@@ -22,7 +22,7 @@ GRUPOS = [
     },
     {
         "tema": "ODS 3.8",
-        "integrantes": "GABRIELA, LAURA, CAMILA e REBECA",
+        "integrantes": "GABRIELA, JOÃO SOUSA, LAURA, CAMILA e REBECA",
         "subtema": "Vacinas e medicamentos. (Laboratório)",
         "conteudo": "SIGA A LINHA AZUL NO CHÃO.",
         "cor": "#0077CC",
