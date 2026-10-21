@@ -98,6 +98,33 @@ GRUPOS = [
 # PÁGINA E ESTILO
 st.set_page_config(page_title="EXPOCAMP 2A e 2B", layout="wide")
 
+# ---------- TELA LIMPA: esconde barra superior, menu, Deploy e rodapé ----------
+ESTILO_LIMPO = """
+<style>
+header[data-testid="stHeader"],
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"],
+[data-testid="stAppDeployButton"],
+.stDeployButton,
+#MainMenu,
+footer,
+[class*="viewerBadge"],
+[class*="ProfileContainer"],
+[class*="profileContainer"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+/* Sem a barra superior, reduz o espaço vazio no topo da página */
+[data-testid="stMainBlockContainer"],
+.block-container {
+    padding-top: 2rem !important;
+}
+</style>
+"""
+st.markdown(ESTILO_LIMPO, unsafe_allow_html=True)
+
+
 st.markdown(
     """
     <style>
